@@ -30,6 +30,9 @@ module.exports = {
       },
       colors: {
         "brandOne": "#000D39",
+        "primary": "#E12127",
+        "header": "#F1F4FF",
+        "headerBottom": "#E5E9F6",
       },
     },
   },
