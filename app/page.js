@@ -1,8 +1,20 @@
-import Image from "next/image";
+// css component 
+import Container from "@/components/Container";
+// home component 
+import HomeTop from "@/components/Home/HomeTop";
+import TopNews from "@/components/Home/TopNews";
 
 export default function Home() {
   return (
-    <main className="">
-    </main>
+    <>
+      <section className="pt-[70px]">
+        <main>
+          <Container>
+            <HomeTop />
+            <TopNews/>
+          </Container>
+        </main>
+      </section>
+    </>
   );
 }

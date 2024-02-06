@@ -155,7 +155,7 @@ export default function NavBar() {
                     </Flex>
                     {/* search icon */}
                     <div>
-                      <FaSearch className="cursor-pointer" />
+                      <FaSearch className="cursor-pointer text-2xl" />
                     </div>
                   </Flex>
                 </ul>
